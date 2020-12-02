@@ -1,0 +1,2046 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PatientGrid /> renders file upload 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Table"
+      >
+        <div
+          class="Table-header"
+        >
+          <div
+            class="Header"
+          >
+            <div
+              class="Header-content Header-content--top"
+            >
+              <div
+                class="Header-search"
+              >
+                <div
+                  class="Input Input--regular Input--disabled"
+                  data-test="DesignSystem-InputWrapper"
+                  style="min-width: 256px;"
+                >
+                  <div
+                    class="Input-icon Input-icon--left Input-icon--disabled"
+                  >
+                    <i
+                      class="material-icons Icon Icon--default"
+                      style="font-size: 16px; width: 16px;"
+                    >
+                      search
+                    </i>
+                  </div>
+                  <input
+                    class="Input-input Input-input--regular"
+                    data-test="DesignSystem-Input"
+                    disabled=""
+                    name="GridHeader-search"
+                    placeholder="Search"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="Header-content Header-content--bottom"
+            >
+              <div
+                class="Header-label"
+              >
+                <div
+                  class="Placeholder"
+                  data-test="DesignSystem-Placeholder"
+                >
+                  <div
+                    class="Placeholder-paragraph"
+                    data-test="DesignSystem-Placeholder--Paragraph"
+                  >
+                    <div
+                      class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-small PlaceholderParagraph-wrapper--size-s"
+                    >
+                      <span
+                        class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--s"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Header-hideColumns"
+              >
+                <div
+                  class="Dropdown"
+                >
+                  <span
+                    class="PopperWrapper-trigger w-100"
+                  >
+                    <button
+                      class="Button Button--tiny Button--transparent Button--iconAlign-right"
+                      tabindex="0"
+                    >
+                      <div
+                        class="Button-icon Button-icon--right"
+                      >
+                        <i
+                          class="material-icons Icon Icon--default"
+                          style="font-size: 12px; width: 12px;"
+                        >
+                          keyboard_arrow_down_filled
+                        </i>
+                      </div>
+                      Showing 0 of 0 columns
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Table-grid"
+        >
+          <div
+            class="Grid-wrapper"
+          >
+            <div
+              class="Grid Grid--data Grid--standard"
+            >
+              <div
+                class="Grid-head"
+              >
+                <div
+                  class="Grid-row Grid-row--head"
+                >
+                  <div
+                    class="Grid-cellGroup Grid-cellGroup--main"
+                  >
+                    <div
+                      class="Grid-cell Grid-cell--head"
+                      draggable="true"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-headCell Grid-headCell--draggable"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <div
+                              class="Placeholder-paragraph"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <span>
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                          </div>
+                        </span>
+                        <span
+                          class="ml-4"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                          </div>
+                        </span>
+                        <span
+                          class="Grid-cellResize"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--head"
+                      draggable="true"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-headCell Grid-headCell--draggable"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <div
+                              class="Placeholder-paragraph"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <span
+                          class="ml-4"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                          </div>
+                        </span>
+                        <span
+                          class="Grid-cellResize"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--head"
+                      draggable="true"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-headCell Grid-headCell--draggable"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <div
+                              class="Placeholder-paragraph"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <span
+                          class="ml-4"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                          </div>
+                        </span>
+                        <span
+                          class="Grid-cellResize"
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--head"
+                      draggable="true"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-headCell Grid-headCell--draggable"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <div
+                              class="Placeholder-paragraph"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <span>
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                          </div>
+                        </span>
+                        <span
+                          class="ml-4"
+                        >
+                          <div
+                            class="Placeholder"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                          </div>
+                        </span>
+                        <span
+                          class="Grid-cellResize"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Grid-body"
+              >
+                <div
+                  class="Grid-rowWrapper"
+                >
+                  <div
+                    class="Grid-row Grid-row--body"
+                  >
+                    <div
+                      class="Grid-cellGroup Grid-cellGroup--main"
+                    >
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <a
+                            href="/patientProfile/undefined"
+                          >
+                            <div
+                              class="GridCell GridCell--metaList"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                                />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--align-left GridCell--statusHint"
+                          >
+                            <div
+                              class="Placeholder w-75 flex-grow-0"
+                              data-test="DesignSystem-Placeholder"
+                            >
+                              <span
+                                class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                                data-test="DesignSystem-Placeholder--Image"
+                              />
+                              <div
+                                class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                                data-test="DesignSystem-Placeholder--Paragraph"
+                              >
+                                <div
+                                  class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                                >
+                                  <span
+                                    class="Placeholder--animation PlaceholderParagraph"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Grid-rowWrapper"
+                >
+                  <div
+                    class="Grid-row Grid-row--body"
+                  >
+                    <div
+                      class="Grid-cellGroup Grid-cellGroup--main"
+                    >
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <a
+                            href="/patientProfile/undefined"
+                          >
+                            <div
+                              class="GridCell GridCell--metaList"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                                />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--align-left GridCell--statusHint"
+                          >
+                            <div
+                              class="Placeholder w-75 flex-grow-0"
+                              data-test="DesignSystem-Placeholder"
+                            >
+                              <span
+                                class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                                data-test="DesignSystem-Placeholder--Image"
+                              />
+                              <div
+                                class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                                data-test="DesignSystem-Placeholder--Paragraph"
+                              >
+                                <div
+                                  class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                                >
+                                  <span
+                                    class="Placeholder--animation PlaceholderParagraph"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Grid-rowWrapper"
+                >
+                  <div
+                    class="Grid-row Grid-row--body"
+                  >
+                    <div
+                      class="Grid-cellGroup Grid-cellGroup--main"
+                    >
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <a
+                            href="/patientProfile/undefined"
+                          >
+                            <div
+                              class="GridCell GridCell--metaList"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                                />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--align-left GridCell--statusHint"
+                          >
+                            <div
+                              class="Placeholder w-75 flex-grow-0"
+                              data-test="DesignSystem-Placeholder"
+                            >
+                              <span
+                                class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                                data-test="DesignSystem-Placeholder--Image"
+                              />
+                              <div
+                                class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                                data-test="DesignSystem-Placeholder--Paragraph"
+                              >
+                                <div
+                                  class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                                >
+                                  <span
+                                    class="Placeholder--animation PlaceholderParagraph"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Grid-rowWrapper"
+                >
+                  <div
+                    class="Grid-row Grid-row--body"
+                  >
+                    <div
+                      class="Grid-cellGroup Grid-cellGroup--main"
+                    >
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <a
+                            href="/patientProfile/undefined"
+                          >
+                            <div
+                              class="GridCell GridCell--metaList"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                                />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--align-left GridCell--statusHint"
+                          >
+                            <div
+                              class="Placeholder w-75 flex-grow-0"
+                              data-test="DesignSystem-Placeholder"
+                            >
+                              <span
+                                class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                                data-test="DesignSystem-Placeholder--Image"
+                              />
+                              <div
+                                class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                                data-test="DesignSystem-Placeholder--Paragraph"
+                              >
+                                <div
+                                  class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                                >
+                                  <span
+                                    class="Placeholder--animation PlaceholderParagraph"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Grid-rowWrapper"
+                >
+                  <div
+                    class="Grid-row Grid-row--body"
+                  >
+                    <div
+                      class="Grid-cellGroup Grid-cellGroup--main"
+                    >
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <a
+                            href="/patientProfile/undefined"
+                          >
+                            <div
+                              class="GridCell GridCell--metaList"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                                />
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Grid-cell Grid-cell--body"
+                        style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                      >
+                        <div
+                          class="Grid-cellContent"
+                        >
+                          <div
+                            class="GridCell GridCell--align-left GridCell--statusHint"
+                          >
+                            <div
+                              class="Placeholder w-75 flex-grow-0"
+                              data-test="DesignSystem-Placeholder"
+                            >
+                              <span
+                                class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                                data-test="DesignSystem-Placeholder--Image"
+                              />
+                              <div
+                                class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                                data-test="DesignSystem-Placeholder--Paragraph"
+                              >
+                                <div
+                                  class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                                >
+                                  <span
+                                    class="Placeholder--animation PlaceholderParagraph"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Table"
+    >
+      <div
+        class="Table-header"
+      >
+        <div
+          class="Header"
+        >
+          <div
+            class="Header-content Header-content--top"
+          >
+            <div
+              class="Header-search"
+            >
+              <div
+                class="Input Input--regular Input--disabled"
+                data-test="DesignSystem-InputWrapper"
+                style="min-width: 256px;"
+              >
+                <div
+                  class="Input-icon Input-icon--left Input-icon--disabled"
+                >
+                  <i
+                    class="material-icons Icon Icon--default"
+                    style="font-size: 16px; width: 16px;"
+                  >
+                    search
+                  </i>
+                </div>
+                <input
+                  class="Input-input Input-input--regular"
+                  data-test="DesignSystem-Input"
+                  disabled=""
+                  name="GridHeader-search"
+                  placeholder="Search"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="Header-content Header-content--bottom"
+          >
+            <div
+              class="Header-label"
+            >
+              <div
+                class="Placeholder"
+                data-test="DesignSystem-Placeholder"
+              >
+                <div
+                  class="Placeholder-paragraph"
+                  data-test="DesignSystem-Placeholder--Paragraph"
+                >
+                  <div
+                    class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-small PlaceholderParagraph-wrapper--size-s"
+                  >
+                    <span
+                      class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--s"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Header-hideColumns"
+            >
+              <div
+                class="Dropdown"
+              >
+                <span
+                  class="PopperWrapper-trigger w-100"
+                >
+                  <button
+                    class="Button Button--tiny Button--transparent Button--iconAlign-right"
+                    tabindex="0"
+                  >
+                    <div
+                      class="Button-icon Button-icon--right"
+                    >
+                      <i
+                        class="material-icons Icon Icon--default"
+                        style="font-size: 12px; width: 12px;"
+                      >
+                        keyboard_arrow_down_filled
+                      </i>
+                    </div>
+                    Showing 0 of 0 columns
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Table-grid"
+      >
+        <div
+          class="Grid-wrapper"
+        >
+          <div
+            class="Grid Grid--data Grid--standard"
+          >
+            <div
+              class="Grid-head"
+            >
+              <div
+                class="Grid-row Grid-row--head"
+              >
+                <div
+                  class="Grid-cellGroup Grid-cellGroup--main"
+                >
+                  <div
+                    class="Grid-cell Grid-cell--head"
+                    draggable="true"
+                    style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                  >
+                    <div
+                      class="Grid-headCell Grid-headCell--draggable"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <div
+                            class="Placeholder-paragraph"
+                            data-test="DesignSystem-Placeholder--Paragraph"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span>
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <span
+                            class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                            data-test="DesignSystem-Placeholder--Image"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="ml-4"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <span
+                            class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                            data-test="DesignSystem-Placeholder--Image"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="Grid-cellResize"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="Grid-cell Grid-cell--head"
+                    draggable="true"
+                    style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                  >
+                    <div
+                      class="Grid-headCell Grid-headCell--draggable"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <div
+                            class="Placeholder-paragraph"
+                            data-test="DesignSystem-Placeholder--Paragraph"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        class="ml-4"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <span
+                            class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                            data-test="DesignSystem-Placeholder--Image"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="Grid-cellResize"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="Grid-cell Grid-cell--head"
+                    draggable="true"
+                    style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                  >
+                    <div
+                      class="Grid-headCell Grid-headCell--draggable"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <div
+                            class="Placeholder-paragraph"
+                            data-test="DesignSystem-Placeholder--Paragraph"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span
+                        class="ml-4"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <span
+                            class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                            data-test="DesignSystem-Placeholder--Image"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="Grid-cellResize"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="Grid-cell Grid-cell--head"
+                    draggable="true"
+                    style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                  >
+                    <div
+                      class="Grid-headCell Grid-headCell--draggable"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <div
+                            class="Placeholder-paragraph"
+                            data-test="DesignSystem-Placeholder--Paragraph"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span>
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <span
+                            class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                            data-test="DesignSystem-Placeholder--Image"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="ml-4"
+                      >
+                        <div
+                          class="Placeholder"
+                          data-test="DesignSystem-Placeholder"
+                        >
+                          <span
+                            class="PlaceholderImage Placeholder--animation PlaceholderImage--small"
+                            data-test="DesignSystem-Placeholder--Image"
+                          />
+                        </div>
+                      </span>
+                      <span
+                        class="Grid-cellResize"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Grid-body"
+            >
+              <div
+                class="Grid-rowWrapper"
+              >
+                <div
+                  class="Grid-row Grid-row--body"
+                >
+                  <div
+                    class="Grid-cellGroup Grid-cellGroup--main"
+                  >
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <a
+                          href="/patientProfile/undefined"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--align-left GridCell--statusHint"
+                        >
+                          <div
+                            class="Placeholder w-75 flex-grow-0"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                            <div
+                              class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Grid-rowWrapper"
+              >
+                <div
+                  class="Grid-row Grid-row--body"
+                >
+                  <div
+                    class="Grid-cellGroup Grid-cellGroup--main"
+                  >
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <a
+                          href="/patientProfile/undefined"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--align-left GridCell--statusHint"
+                        >
+                          <div
+                            class="Placeholder w-75 flex-grow-0"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                            <div
+                              class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Grid-rowWrapper"
+              >
+                <div
+                  class="Grid-row Grid-row--body"
+                >
+                  <div
+                    class="Grid-cellGroup Grid-cellGroup--main"
+                  >
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <a
+                          href="/patientProfile/undefined"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--align-left GridCell--statusHint"
+                        >
+                          <div
+                            class="Placeholder w-75 flex-grow-0"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                            <div
+                              class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Grid-rowWrapper"
+              >
+                <div
+                  class="Grid-row Grid-row--body"
+                >
+                  <div
+                    class="Grid-cellGroup Grid-cellGroup--main"
+                  >
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <a
+                          href="/patientProfile/undefined"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--align-left GridCell--statusHint"
+                        >
+                          <div
+                            class="Placeholder w-75 flex-grow-0"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                            <div
+                              class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="Grid-rowWrapper"
+              >
+                <div
+                  class="Grid-row Grid-row--body"
+                >
+                  <div
+                    class="Grid-cellGroup Grid-cellGroup--main"
+                  >
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <a
+                          href="/patientProfile/undefined"
+                        >
+                          <div
+                            class="GridCell GridCell--metaList"
+                          >
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph"
+                              />
+                            </div>
+                            <div
+                              class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                            >
+                              <span
+                                class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--metaList"
+                        >
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-medium"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph"
+                            />
+                          </div>
+                          <div
+                            class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large PlaceholderParagraph-wrapper--size-xxs"
+                          >
+                            <span
+                              class="Placeholder--animation PlaceholderParagraph PlaceholderParagraph--xxs"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="Grid-cell Grid-cell--body"
+                      style="visibility: visible; width: 0px; min-width: 96px; max-width: 800px;"
+                    >
+                      <div
+                        class="Grid-cellContent"
+                      >
+                        <div
+                          class="GridCell GridCell--align-left GridCell--statusHint"
+                        >
+                          <div
+                            class="Placeholder w-75 flex-grow-0"
+                            data-test="DesignSystem-Placeholder"
+                          >
+                            <span
+                              class="PlaceholderImage Placeholder--animation PlaceholderImage--round PlaceholderImage--small"
+                              data-test="DesignSystem-Placeholder--Image"
+                            />
+                            <div
+                              class="Placeholder-paragraph Placeholder-paragraph--withImage"
+                              data-test="DesignSystem-Placeholder--Paragraph"
+                            >
+                              <div
+                                class="PlaceholderParagraph-wrapper PlaceholderParagraph-wrapper--length-large"
+                              >
+                                <span
+                                  class="Placeholder--animation PlaceholderParagraph"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
